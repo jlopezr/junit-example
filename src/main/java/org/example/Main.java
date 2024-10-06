@@ -8,13 +8,11 @@ public class Main {
         Library library = new Library();
         // Add initial books tothe library for testing
         library.addBook(new Book("1984", "George Orwell", 1949));
-        library.addBook(new Book("To Kill aMockingbird", "Harper Lee",
-                1960));
-        library.addBook(new Book("Brave NewWorld", "Aldous Huxley", 1932)
-        );
+        library.addBook(new Book("To Kill aMockingbird", "Harper Lee", 1960));
+        library.addBook(new Book("Brave NewWorld", "Aldous Huxley", 1932));
         library.addBook(new Book("Animal Farm", "George Orwell", 1945));
-        library.addBook(new Book("TheCatcher in the Rye", "J.D. Salinger"
-                , 1949)); // Newbook added
+        library.addBook(new Book("TheCatcher in the Rye", "J.D. Salinger", 1949));
+
         Scanner scanner = new Scanner(System.in);
         boolean exit = false;
         while (!exit) {

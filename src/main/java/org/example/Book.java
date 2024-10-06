@@ -1,9 +1,9 @@
 package org.example;
 
-class Book {
-    private String title;
-    private String author;
-    private int year;
+public class Book {
+    public String title;
+    public String author;
+    public int year;
 
     public Book(String title, String author, int year) {
         this.title = title;

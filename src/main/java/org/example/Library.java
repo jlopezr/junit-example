@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 
-class Library {
+public class Library {
     private ArrayList<Book> books;
 
     public Library() {
