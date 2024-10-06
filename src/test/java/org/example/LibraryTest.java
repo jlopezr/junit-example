@@ -40,7 +40,7 @@ public class LibraryTest {
         assertEquals(1, library.getBooksByYear(1949).size());
         assertTrue(library.removeBook("TheCatcher in the Rye"));
         assertEquals(0, library.getBooksByYear(1949).size());
-        //assertFalse(library.removeBook("Unknown book"));
+        assertFalse(library.removeBook("Unknown book"));
     }
 
     @Test
